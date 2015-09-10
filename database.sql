@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS `messages` (
 DROP TABLE IF EXISTS `topics`;
 CREATE TABLE IF NOT EXISTS `topics` (
   `id` int(10) unsigned NOT NULL,
-  `creation` date NOT NULL,
+  `creation` datetime NOT NULL,
   `creatorId` int(10) unsigned NOT NULL,
   `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `description` varchar(2047) COLLATE utf8mb4_unicode_ci NOT NULL
