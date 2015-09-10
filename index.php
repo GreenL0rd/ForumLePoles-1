@@ -72,15 +72,8 @@ if ( !empty($_POST) ) {
         <div id="head">
             <div class="left">
                 <a href="#" class="button profile"><img src="img/icons/top/huser.png" alt="" /></a>
-                Bonjour,
+                Bonjour
                 <?=$_SESSION['user']['pseudo']?>
-            </div>
-            <div class="right">
-                <form action="#" id="search" class="search placeholder">
-                    <label>Vous recherchez un truc ?</label>
-                    <input type="text" value="" name="q" class="text"/>
-                    <input type="submit" value="rechercher" class="submit"/>
-                </form>
             </div>
         </div>
 
