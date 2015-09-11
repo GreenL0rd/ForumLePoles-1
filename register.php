@@ -2,6 +2,7 @@
 
 include('includes/db.php');
 
+$error = '';
 if ( !empty($_POST) ) {
 
 	if ( $_POST['password'] === $_POST['password_'] ) {
