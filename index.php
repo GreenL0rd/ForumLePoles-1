@@ -13,8 +13,8 @@ if ( !empty($_POST) ) {
 		'INSERT INTO topics (creation, creatorId, title, description) VALUES (' .
 		'"' . date('Y-m-d H:i:s') . '", "' . $_SESSION['user']['id'] . '", "' . $_POST['title'] . '", "' . $_POST['description'] . '");'
 	);
-	header('Location: ./');
-	die();
+	//header('Location: ./');
+	//die();
 }
 
 
