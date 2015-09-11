@@ -2,6 +2,7 @@
 
 include('includes/db.php');
 
+$error = '';
 if ( !empty($_POST) ) {
 
 	$request = $pdo->query('SELECT * FROM users WHERE email = "' . $_POST['email'] . '" AND password = "' . $_POST['password'] . '";');

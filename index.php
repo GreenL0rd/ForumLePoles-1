@@ -161,8 +161,8 @@ if ( !empty($_POST) ) {
 
 
 					$request = $pdo->query('SELECT * FROM users WHERE id = ' . $result['creatorId']);
-					$result = $request->fetchAll();
-					echo $result[0]['pseudo'];
+					$resultB = $request->fetchAll();
+					echo $resultB[0]['pseudo'];
 
 
 				?></td>
